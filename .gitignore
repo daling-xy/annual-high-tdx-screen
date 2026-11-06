@@ -1,0 +1,17 @@
+# 运行产物
+out/
+*.xlsx
+*.csv
+!analyst_notes.example.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 个人覆盖配置（含你自己的个股点评，不要上传）
+analyst_notes.json
+
+# 系统
+.DS_Store
+Thumbs.db
